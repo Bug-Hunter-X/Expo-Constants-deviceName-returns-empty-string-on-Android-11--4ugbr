@@ -1,0 +1,1 @@
+This bug occurs when using the Expo `Constants.deviceName` API to get the device's name on Android devices running Android 11 (API level 30) or higher.  The API returns a string that is sometimes unexpectedly empty or null, instead of the actual device name.
